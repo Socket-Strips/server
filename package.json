@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Strips socket server",
   "scripts": {
-    "build": "tsc",
     "dev": "concurrently \"tsc -w\" \"nodemon dist/server.js\"",
     "lint": "eslint .",
     "seed": "tsc && node ./dist/seed.js"
